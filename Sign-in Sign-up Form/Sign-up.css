@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.sign-up {
+  margin-left: 5%;
+  height: 100vh;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up h1 {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.sign-up .form-input {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.sign-up .form-input input {
+  position: relative;
+  width: 400px;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 40px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sign-up .form-input i {
+  position: absolute;
+  font-size: 20px;
+  margin-left: 410px;
+}
+
+.sign-up .form-input input::placeholder {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sign-up button {
+  height: 50px;
+  width: 200px;
+  border: none;
+  background-color: #4481eb;
+  color: #fff;
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.sign-up p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.social-btn-container {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-btn-box {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.social-btn-box i {
+  font-size: 17.5px;
+}
+
+.sign-in {
+  height: 900px;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  border-bottom-left-radius: 100%;
+  background: linear-gradient(-45deg, #4481eb, #04befe);
+  animation: fill 5s linear 0s 1;
+}
+
+.sign-in h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.sign-in p {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.sign-in button {
+  height: 50px;
+  width: 180px;
+  border: 4px solid #fff;
+  border-radius: 40px;
+  background: transparent;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@keyframes fill {
+  from {
+    width: 40vw;
+    background: linear-gradient(-45deg, #4481eb, #04befe);
+  }
+  to {
+    width: 100vw;
+    background: linear-gradient(-45deg, #4481eb, #04befe);
+  }
+}
